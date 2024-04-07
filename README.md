@@ -1,4 +1,4 @@
-# PHP-Trivia-Game
+
 
 For Project 2, our group will primarily utilize HTML, CSS, and PHP to create our version of the popular game show "Who Wants to be a Millionaire?".
 

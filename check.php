@@ -1,4 +1,6 @@
 <?php
+    session_start();
+	session_save_path("session");
 	
 	$answer = $_POST['answer'];
 	$check = strcmp($answer,"true");
@@ -15,7 +17,7 @@
 		foreach($lines as $line) {
 			$data = explode(',', $line);
 			if($data[0] == $username) {
-				$result .= $username . "," . $password . "," . $score . "," . $amount . "\n";
+				$result .= $username . "," . $password . "," . $score . "\n";
 			} else {
 				$result .= $line;
 			}

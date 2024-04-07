@@ -7,8 +7,8 @@
         
     }
     else {
-        header('Location: login.php');
-        exit();
+        //header('Location: login.php');
+        //exit();
     }
 ?>
 
@@ -22,7 +22,7 @@
 
 
 <audio controls autoplay>
-        <source src="./home.mp3" type="audio/mpeg" >
+        <source src="./home_bgm.mp3" type="audio/mpeg" >
       </audio>
 	
 <div class="background-image">

@@ -4,6 +4,7 @@
 	$score = 1;
 	$_SESSION["score"] = $score;
 	$_SESSION["amount"] = 500;
+    
 ?>
 <html>
 
@@ -14,7 +15,7 @@
 
 <body>
 <audio controls autoplay>
-        <source src="./kbk.mp3" type="audio/mpeg" >
+        <source src="./question.mp3" type="audio/mpeg" >
       </audio>
 <nav class="navbar">
         <a href="logout.php" class="button">Quit</a>

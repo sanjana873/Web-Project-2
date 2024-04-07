@@ -1,7 +1,6 @@
 h1{
     text-align: center;
     color: white;
-    background-color: azure;
 }
 #table-container {
 width: 600px;
@@ -87,7 +86,7 @@ transition: 0.5s;
 margin: auto;
 text-align: center;
 margin-left: 70%;
-margin-top: 10%;
+margin-top: 5%;
 }
 .button {
 text-align: center;
@@ -141,3 +140,11 @@ display: inline-block;
             opacity: 1;
         }
     }
+
+    audio {
+        position: fixed;
+        margin-left: 70%;
+        margin-top: 0;
+    }
+
+    

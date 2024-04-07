@@ -3,6 +3,7 @@
 	$score = 0;
 	$_SESSION["score"] = $score;
 	$_SESSION["amount"] = 0;
+    
     ?>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -12,7 +13,7 @@
 </head>
 <body>
 <audio controls autoplay>
-        <source src="./kbk.mp3" type="audio/mpeg" >
+        <source src="./question.mp3" type="audio/mpeg" >
       </audio>
     <nav class="navbar">
     <a href="logout.php" class="button">Quit</a>

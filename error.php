@@ -12,6 +12,8 @@
 	<link href="error.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
+
+<img src="error.jpg" class="moving-image" alt="Moving Image">
 	
 
 	<div class="loser-message">

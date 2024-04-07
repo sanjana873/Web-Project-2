@@ -1,8 +1,10 @@
 <?php 
-	
+	session_start();
+	session_save_path("session");
 	$username = $_SESSION["username"];
 	$password = $_SESSION["password"];
-	$score = 10;
+	$score = 0;
+	$_SESSION["score"] = $score;
 	$amount = $_SESSION["amount"];
 
 	
@@ -13,7 +15,7 @@
 		foreach($lines as $line) {
 			$data = explode(',', $line);
 			if($data[0] == $username) {
-				$result .= $username . "," . $password . "," . $score . "," . $amount . "\n";
+				$result .= $username . "," . $password . "," . $score . "\n";
 			} else {
 				$result .= $line;
 			}
