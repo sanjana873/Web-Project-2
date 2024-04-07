@@ -1,0 +1,5 @@
+kamal,kamal,0,0
+test1,test1,3,2500
+sanju,123,0
+pooji,pooji,10,1000000
+123,123,0,0
